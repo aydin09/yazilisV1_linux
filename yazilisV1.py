@@ -44,7 +44,7 @@ def okunus():
     o3.append(o2[0])
 
     soru = Label(text=str(o3[0]) + " sayısının yazılışı aşağıdakilerden hangisidir?                      ",
-                 font="Times 24").place(relx=0.2, rely=0.1)
+                 font="FreeSans 24").place(relx=0.2, rely=0.1)
 
     def yaz_1():
         if s1 == o3[0]:
